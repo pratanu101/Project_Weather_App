@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgb(7, 49, 77);
+  height: 100vh;
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #000000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* search css */
+.search-main{
+  display: flex;
+  justify-content: center;
+  /* padding-top:50px ; */
+}
+.search-card{
+  height: 100px;
+  width: 50%;
+  background-color: rgb(46, 166, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  opacity: .6;
+}
+
+/* TEMPDATA CSS */
+.tempcontainer{
+  height: 500px;
+  width: 50%;
+  /* background-color: bisque; */
+  margin: auto;
+  border-radius: 30px;
+  display: flex;
+  text-align: start;
+}
+.box-1{
+  height: 500px;
+  width: 50%;
+  background-color:aquamarine ;
+  background-color: #000;
+  /* opacity: .5; */
+  border-radius: 20px 0px 0px 20px;
+  background-image: url('./components/weather.jpg');
+  text-align: center;
+  
+}
+.box-2{
+  height: 500px;
+  width: 50%;
+  background-color:rgb(32, 143, 41) ;
+  opacity: .6;
+  border-radius: 0px 20px 20px 0px;
+}
+#tid{
+  border-bottom: 2px solod white;
+  height: 50px;
+}
